@@ -19,7 +19,7 @@ const Home = () => {
       <Helmet>
         <title>Home | MovieQL</title>
       </Helmet>
-      {loading && "Loading"}
+      {loading && "Loading.. API 데이터를 불러온느 중입니다."}
       {error && "Something is wrong"}
       {!loading &&
         data &&
